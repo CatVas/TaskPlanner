@@ -125,9 +125,10 @@ export default class Scheduler extends Component {
                         <ul>
                             {tasks.map((task) => (
                                 <Task
+                                    _removeTaskAsync = { this._removeTaskAsync }
+                                    _updateTaskAsync = { this._updateTaskAsync }
                                     key = { task.id }
                                     { ...task }
-                                    _updateTaskAsync = { this._updateTaskAsync }
                                 />
                             ))}
                         </ul>

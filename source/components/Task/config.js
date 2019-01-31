@@ -4,12 +4,13 @@ import {
 } from 'prop-types';
 
 export const PROP_TYPES = {
-    completed: bool,
-    favorite:  bool,
-    id:        oneOfType([
+    _removeTaskAsync: func,
+    _updateTaskAsync: func,
+    completed:        bool,
+    favorite:         bool,
+    id:               oneOfType([
         number,
         string
-    ]),
-    message:          string,
-    _updateTaskAsync: func,
+    ]).isRequired,
+    message: string,
 };
