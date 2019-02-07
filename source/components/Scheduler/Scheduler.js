@@ -13,7 +13,9 @@ export default class Scheduler extends Component {
         tasksFilter:     '',
     };
 
-    componentDidMount () {}
+    componentDidMount () {
+        this._fetchTasksAsync();
+    }
 
     _completeAllTasksAsync = async () => {
         const { tasks } = this.state;
@@ -42,7 +44,7 @@ export default class Scheduler extends Component {
 
             this.setState(({ tasks }) => ({
                 newTaskMessage: '',
-                tasks: [ ...tasks, newTask ],
+                tasks:          [...tasks, newTask],
             }));
             this._setTasksFetchingState(false);
         } else {
