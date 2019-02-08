@@ -2,7 +2,7 @@
 import { MAIN_URL, TOKEN } from './config';
 
 const headers = {
-    Authorization:  TOKEN,
+    Authorization: TOKEN,
 };
 const headersFull = {
     ...headers,

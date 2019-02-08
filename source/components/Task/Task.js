@@ -9,12 +9,19 @@ export default class Task extends PureComponent {
 
     state = {
         isTaskEditing: false,
-        newMessage:    '',
+        newMessage:    this.props.message,
     };
 
     taskInput = createRef();
 
-    _cancelUpdatingTaskMessage = () => {};
+    _cancelUpdatingTaskMessage = () => {
+        const { message } = this.props;
+
+        this.setState({
+            isTaskEditing: false,
+            newMessage:    message,
+        });
+    };
 
     _getTaskShape = ({
         id = this.props.id,
@@ -38,11 +45,13 @@ export default class Task extends PureComponent {
         this.setState({ isTaskEditing });
 
         if (isTaskEditing) {
-            this.taskInput.current.focus();
+            this._taskInputFocus();
         }
     };
 
-    _taskInputFocus = () => {};
+    _taskInputFocus = () => {
+        this.taskInput.current.focus();
+    };
 
     _toggleTaskCompletedState = () => {
         const { _updateTaskAsync, completed } = this.props;
@@ -68,12 +77,13 @@ export default class Task extends PureComponent {
             _updateTaskAsync,
             message,
         } = this.props;
+        const task = this._getTaskShape({ message: newMessage });
 
         this._setTaskEditingState(false);
         if (message === newMessage) {
             return null;
         }
-        _updateTaskAsync();
+        _updateTaskAsync(task);
     };
 
     _updateTaskMessageOnClick = () => {
@@ -105,9 +115,8 @@ export default class Task extends PureComponent {
         const {
             completed,
             favorite,
-            message,
         } = this._getTaskShape(this.props);
-        const { isTaskEditing } = this.state;
+        const { isTaskEditing, newMessage } = this.state;
 
         return (
             <li className = { Styles.task }>
@@ -125,7 +134,7 @@ export default class Task extends PureComponent {
                         maxLength = { 50 }
                         ref = { this.taskInput }
                         type = 'text'
-                        value = { message }
+                        value = { newMessage }
                         onChange = { this._updateNewTaskMessage }
                         onKeyDown = { this._updateTaskMessageOnKeyDown }
                     />

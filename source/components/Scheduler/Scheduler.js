@@ -34,10 +34,10 @@ export default class Scheduler extends Component {
     }
 
     _createTaskAsync = async (ev) => {
+        ev.preventDefault();
         const { newTaskMessage } = this.state;
 
         if (newTaskMessage) {
-            ev.preventDefault();
             this._setTasksFetchingState(true);
 
             const newTask = await api.createTask(newTaskMessage);
@@ -63,10 +63,6 @@ export default class Scheduler extends Component {
 
     _getAllCompleted = () => !this.state.tasks.find((t) => !t.completed);
 
-    handleAddTask = (task) => {
-        console.log(task);
-    };
-
     _removeTaskAsync = async (id) => {
         this._setTasksFetchingState(true);
         await api.removeTask(id);
@@ -79,13 +75,30 @@ export default class Scheduler extends Component {
     _setTasksFetchingState = (isTasksFetching) => {
         this.setState({ isTasksFetching });
     };
+
+    _sortTasks = (tasks) => tasks.sort((task1, task2) => {
+        // TODO: complete the filtration later
+        if (task1.favorite && !task2.favorite) {
+            return -1;
+        }
+
+        return 0;
+    });
+
     _updateNewTaskMessage = (ev) => {
         this.setState({ newTaskMessage: ev.target.value })
     };
 
-    _updateTaskAsync = async (task) => {
+    _updateTaskAsync = async (updatedTask) => {
         this._setTasksFetchingState(true);
-        await api.updateTask(task);
+        const res = await api.updateTask(updatedTask);
+        const updated = res[0];
+
+        if (updated) {
+            this.setState(({ tasks }) => ({
+                tasks: tasks.map((task) => task.id === updated.id ? updated : task),
+            }));
+        }
         this._setTasksFetchingState(false);
     }
 
@@ -125,7 +138,7 @@ export default class Scheduler extends Component {
                             </button>
                         </form>
                         <ul>
-                            {tasks.map((task) => (
+                            {this._sortTasks(tasks).map((task) => (
                                 <Task
                                     _removeTaskAsync = { this._removeTaskAsync }
                                     _updateTaskAsync = { this._updateTaskAsync }
