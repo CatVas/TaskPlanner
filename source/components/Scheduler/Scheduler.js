@@ -1,13 +1,14 @@
 
 import { Spinner, Task } from 'components';
 import React, { Component } from 'react';
+import FlipMove from 'react-flip-move';
 import Checkbox from 'theme/assets/Checkbox';
 import Styles from './styles.m.css';
 import { api } from '../../REST'; // ! Импорт модуля API должен иметь именно такой вид (import { api } from '../../REST')
 
 export default class Scheduler extends Component {
     state = {
-        isTasksFetching: false,
+        isTasksFetching: true,
         newTaskMessage:  '',
         tasks:           [],
         tasksFilter:     '',
@@ -107,7 +108,19 @@ export default class Scheduler extends Component {
     };
 
     render () {
-        const { isTasksFetching, newTaskMessage, tasks, tasksFilter } = this.state;
+        const {
+            isTasksFetching,
+            newTaskMessage,
+            tasks,
+            tasksFilter,
+        } = this.state;
+
+        const tasksToShow = this._sortTasks(
+            tasks.filter(task => tasksFilter
+                ? task.message.toLowerCase().indexOf(tasksFilter) > -1
+                : true
+            ),
+        );
 
         return (
             <section className = { Styles.scheduler }>
@@ -138,14 +151,16 @@ export default class Scheduler extends Component {
                             </button>
                         </form>
                         <ul>
-                            {this._sortTasks(tasks).map((task) => (
-                                <Task
-                                    _removeTaskAsync = { this._removeTaskAsync }
-                                    _updateTaskAsync = { this._updateTaskAsync }
-                                    key = { task.id }
-                                    { ...task }
-                                />
-                            ))}
+                            <FlipMove duration = { 400 }>
+                                {tasksToShow.map((task) => (
+                                    <Task
+                                        _removeTaskAsync = { this._removeTaskAsync }
+                                        _updateTaskAsync = { this._updateTaskAsync }
+                                        key = { task.id }
+                                        { ...task }
+                                    />
+                                ))}
+                            </FlipMove>
                         </ul>
                     </section>
                     <footer>

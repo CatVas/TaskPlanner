@@ -10,6 +10,19 @@ const headersFull = {
 }
 
 export const api = {
+    completeAllTasks: async (incompleted) => {
+        const res = await Promise.all(incompleted.map(ic => fetch(MAIN_URL, {
+            body: JSON.stringify([{ ...ic, completed: true }]),
+            headers: headersFull,
+            method: 'PUT',
+        })));
+        const notPassed = res.find(r => r.status !== 200);
+
+        if (notPassed) {
+            throw new Error('Bad all tasks complete');
+        }
+    },
+
     createTask: async (message) => {
         const response = await fetch(MAIN_URL, {
             body:    JSON.stringify({ message }),
