@@ -77,14 +77,21 @@ export default class Scheduler extends Component {
         this.setState({ isTasksFetching });
     };
 
-    _sortTasks = (tasks) => tasks.sort((task1, task2) => {
-        // TODO: complete the filtration later
-        if (task1.favorite && !task2.favorite) {
-            return -1;
-        }
+    _sortTasks = (tasks) => {
+        const completed = tasks
+            .filter(({ completed }) => completed)
+            .sort((task1, task2) => task1.favorite ? -1 : 0);
+        const favoriteOnly = tasks
+            .filter(({ favorite, completed }) => favorite && !completed);
+        const other = tasks
+            .filter(({ favorite, completed }) => !favorite && !completed);
 
-        return 0;
-    });
+        return [
+            ...favoriteOnly,
+            ...other,
+            ...completed,
+        ];
+    };
 
     _updateNewTaskMessage = (ev) => {
         this.setState({ newTaskMessage: ev.target.value })

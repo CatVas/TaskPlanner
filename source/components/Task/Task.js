@@ -42,11 +42,11 @@ export default class Task extends PureComponent {
     };
 
     _setTaskEditingState = (isTaskEditing) => {
-        this.setState({ isTaskEditing });
-
-        if (isTaskEditing) {
-            this._taskInputFocus();
-        }
+        this.setState({ isTaskEditing }, () => {
+            if (isTaskEditing) {
+                this._taskInputFocus();
+            }
+        });
     };
 
     _taskInputFocus = () => {
