@@ -22,15 +22,20 @@ export default class Scheduler extends Component {
         const { tasks } = this.state;
         const incompleted = tasks.filter((task) => !task.completed);
 
-        if (incompleted.length > 0) {
-            this._setTasksFetchingState(true);
+        if (incompleted.length <= 0) {
+            return null;
+        }
+
+        this._setTasksFetchingState(true);
+        try {
             await api.completeAllTasks(incompleted);
             this.setState({
                 tasks: tasks.map((task) => ({ ...task, completed: true }))
             });
+        } catch (error) {
+            console.log('Bad all tasks complete. Please try again.');
+        } finally {
             this._setTasksFetchingState(false);
-        } else {
-            return null;
         }
     }
 
@@ -38,39 +43,52 @@ export default class Scheduler extends Component {
         ev.preventDefault();
         const { newTaskMessage } = this.state;
 
-        if (newTaskMessage) {
-            this._setTasksFetchingState(true);
+        if (!newTaskMessage) {
+            return null;
+        }
 
+        this._setTasksFetchingState(true);
+        try {
             const newTask = await api.createTask(newTaskMessage);
 
             this.setState(({ tasks }) => ({
                 newTaskMessage: '',
                 tasks:          [...tasks, newTask],
             }));
+        } catch (error) {
+            console.log('Bad task creation. Please try again.');
+        } finally {
             this._setTasksFetchingState(false);
-        } else {
-            return null;
         }
     }
 
     _fetchTasksAsync = async () => {
         this._setTasksFetchingState(true);
+        try {
+            const tasks = await api.fetchTasks();
 
-        const tasks = await api.fetchTasks();
-
-        this.setState({ tasks });
-        this._setTasksFetchingState(false);
+            this.setState({ tasks });
+        } catch (error) {
+            console.log('Bad tasks fetching. Please try again.');
+        } finally {
+            this._setTasksFetchingState(false);
+        }
     }
 
-    _getAllCompleted = () => !this.state.tasks.find((t) => !t.completed);
+    _getAllCompleted = () => !this.state.tasks.find((task) => !task.completed);
 
     _removeTaskAsync = async (id) => {
         this._setTasksFetchingState(true);
-        await api.removeTask(id);
-        this.setState(({ tasks }) => ({
-            tasks: tasks.filter((task) => task.id !== id),
-        }));
-        this._setTasksFetchingState(false);
+        try {
+            await api.removeTask(id);
+            this.setState(({ tasks }) => ({
+                tasks: tasks.filter((task) => task.id !== id),
+            }));
+        } catch (error) {
+            console.log('Bad task removing. Please try again.');
+        } finally {
+            this._setTasksFetchingState(false);
+        }
     }
 
     _setTasksFetchingState = (isTasksFetching) => {
@@ -78,9 +96,9 @@ export default class Scheduler extends Component {
     };
 
     _sortTasks = (tasks) => {
-        const completed = tasks
+        const completedTasks = tasks
             .filter(({ completed }) => completed)
-            .sort((task1, task2) => task1.favorite ? -1 : 0);
+            .sort((task1) => task1.favorite ? -1 : 0);
         const favoriteOnly = tasks
             .filter(({ favorite, completed }) => favorite && !completed);
         const other = tasks
@@ -89,7 +107,7 @@ export default class Scheduler extends Component {
         return [
             ...favoriteOnly,
             ...other,
-            ...completed,
+            ...completedTasks
         ];
     };
 
@@ -99,15 +117,20 @@ export default class Scheduler extends Component {
 
     _updateTaskAsync = async (updatedTask) => {
         this._setTasksFetchingState(true);
-        const res = await api.updateTask(updatedTask);
-        const updated = res[0];
+        try {
+            const res = await api.updateTask(updatedTask);
+            const updated = res[0];
 
-        if (updated) {
-            this.setState(({ tasks }) => ({
-                tasks: tasks.map((task) => task.id === updated.id ? updated : task),
-            }));
+            if (updated) {
+                this.setState(({ tasks }) => ({
+                    tasks: tasks.map((task) => task.id === updated.id ? updated : task),
+                }));
+            }
+        } catch (error) {
+            console.log('Bad task update. Please try again.');
+        } finally {
+            this._setTasksFetchingState(false);
         }
-        this._setTasksFetchingState(false);
     }
 
     _updateTasksFilter = (ev) => {
@@ -123,8 +146,8 @@ export default class Scheduler extends Component {
         } = this.state;
 
         const tasksToShow = this._sortTasks(
-            tasks.filter(task => tasksFilter
-                ? task.message.toLowerCase().indexOf(tasksFilter) > -1
+            tasks.filter((task) => tasksFilter
+                ? task.message.toLowerCase().includes(tasksFilter)
                 : true
             ),
         );
