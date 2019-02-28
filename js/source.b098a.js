@@ -6078,19 +6078,23 @@ class Scheduler extends _react.Component {
       } = this.state;
       const incompleted = tasks.filter(task => !task.completed);
 
-      if (incompleted.length > 0) {
-        this._setTasksFetchingState(true);
+      if (incompleted.length <= 0) {
+        return null;
+      }
 
+      this._setTasksFetchingState(true);
+
+      try {
         await _REST.api.completeAllTasks(incompleted);
         this.setState({
           tasks: tasks.map(task => _objectSpread({}, task, {
             completed: true
           }))
         });
-
+      } catch (error) {
+        console.log('Bad all tasks complete. Please try again.');
+      } finally {
         this._setTasksFetchingState(false);
-      } else {
-        return null;
       }
     });
 
@@ -6100,9 +6104,13 @@ class Scheduler extends _react.Component {
         newTaskMessage
       } = this.state;
 
-      if (newTaskMessage) {
-        this._setTasksFetchingState(true);
+      if (!newTaskMessage) {
+        return null;
+      }
 
+      this._setTasksFetchingState(true);
+
+      try {
         const newTask = await _REST.api.createTask(newTaskMessage);
         this.setState(({
           tasks
@@ -6110,37 +6118,45 @@ class Scheduler extends _react.Component {
           newTaskMessage: '',
           tasks: [...tasks, newTask]
         }));
-
+      } catch (error) {
+        console.log('Bad task creation. Please try again.');
+      } finally {
         this._setTasksFetchingState(false);
-      } else {
-        return null;
       }
     });
 
     _defineProperty(this, "_fetchTasksAsync", async () => {
       this._setTasksFetchingState(true);
 
-      const tasks = await _REST.api.fetchTasks();
-      this.setState({
-        tasks
-      });
-
-      this._setTasksFetchingState(false);
+      try {
+        const tasks = await _REST.api.fetchTasks();
+        this.setState({
+          tasks
+        });
+      } catch (error) {
+        console.log('Bad tasks fetching. Please try again.');
+      } finally {
+        this._setTasksFetchingState(false);
+      }
     });
 
-    _defineProperty(this, "_getAllCompleted", () => !this.state.tasks.find(t => !t.completed));
+    _defineProperty(this, "_getAllCompleted", () => !this.state.tasks.find(task => !task.completed));
 
     _defineProperty(this, "_removeTaskAsync", async id => {
       this._setTasksFetchingState(true);
 
-      await _REST.api.removeTask(id);
-      this.setState(({
-        tasks
-      }) => ({
-        tasks: tasks.filter(task => task.id !== id)
-      }));
-
-      this._setTasksFetchingState(false);
+      try {
+        await _REST.api.removeTask(id);
+        this.setState(({
+          tasks
+        }) => ({
+          tasks: tasks.filter(task => task.id !== id)
+        }));
+      } catch (error) {
+        console.log('Bad task removing. Please try again.');
+      } finally {
+        this._setTasksFetchingState(false);
+      }
     });
 
     _defineProperty(this, "_setTasksFetchingState", isTasksFetching => {
@@ -6150,9 +6166,9 @@ class Scheduler extends _react.Component {
     });
 
     _defineProperty(this, "_sortTasks", tasks => {
-      const completed = tasks.filter(({
+      const completedTasks = tasks.filter(({
         completed
-      }) => completed).sort((task1, task2) => task1.favorite ? -1 : 0);
+      }) => completed).sort(task1 => task1.favorite ? -1 : 0);
       const favoriteOnly = tasks.filter(({
         favorite,
         completed
@@ -6161,7 +6177,7 @@ class Scheduler extends _react.Component {
         favorite,
         completed
       }) => !favorite && !completed);
-      return [...favoriteOnly, ...other, ...completed];
+      return [...favoriteOnly, ...other, ...completedTasks];
     });
 
     _defineProperty(this, "_updateNewTaskMessage", ev => {
@@ -6173,18 +6189,22 @@ class Scheduler extends _react.Component {
     _defineProperty(this, "_updateTaskAsync", async updatedTask => {
       this._setTasksFetchingState(true);
 
-      const res = await _REST.api.updateTask(updatedTask);
-      const updated = res[0];
+      try {
+        const res = await _REST.api.updateTask(updatedTask);
+        const updated = res[0];
 
-      if (updated) {
-        this.setState(({
-          tasks
-        }) => ({
-          tasks: tasks.map(task => task.id === updated.id ? updated : task)
-        }));
+        if (updated) {
+          this.setState(({
+            tasks
+          }) => ({
+            tasks: tasks.map(task => task.id === updated.id ? updated : task)
+          }));
+        }
+      } catch (error) {
+        console.log('Bad task update. Please try again.');
+      } finally {
+        this._setTasksFetchingState(false);
       }
-
-      this._setTasksFetchingState(false);
     });
 
     _defineProperty(this, "_updateTasksFilter", ev => {
@@ -6206,7 +6226,7 @@ class Scheduler extends _react.Component {
       tasksFilter
     } = this.state;
 
-    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().indexOf(tasksFilter) > -1 : true));
+    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().includes(tasksFilter) : true));
 
     return _react.default.createElement("section", {
       className: _stylesM.default.scheduler
@@ -8133,6 +8153,10 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+const completeTask = task => _objectSpread({}, task, {
+  completed: true
+});
+
 const headers = {
   Authorization: _config.TOKEN
 };
@@ -8141,73 +8165,95 @@ const headersFull = _objectSpread({}, headers, {
   'Content-Type': 'application/json'
 });
 
+const fetchCompletedTask = incompletedTask => fetch(_config.MAIN_URL, {
+  body: JSON.stringify([completeTask(incompletedTask)]),
+  headers: headersFull,
+  method: 'PUT'
+});
+
 const api = {
   completeAllTasks: async incompleted => {
-    const res = await Promise.all(incompleted.map(ic => fetch(_config.MAIN_URL, {
-      body: JSON.stringify([_objectSpread({}, ic, {
-        completed: true
-      })]),
-      headers: headersFull,
-      method: 'PUT'
-    })));
-    const notPassed = res.find(r => r.status !== 200);
+    try {
+      const res = await Promise.all(incompleted.map(fetchCompletedTask));
+      const notPassed = res.find(result => result.status !== 200);
 
-    if (notPassed) {
+      if (notPassed) {
+        throw new Error('Bad all tasks complete');
+      }
+    } catch (error) {
       throw new Error('Bad all tasks complete');
     }
   },
   createTask: async message => {
-    const response = await fetch(_config.MAIN_URL, {
-      body: JSON.stringify({
-        message
-      }),
-      headers: headersFull,
-      method: 'POST'
-    });
+    try {
+      const response = await fetch(_config.MAIN_URL, {
+        body: JSON.stringify({
+          message
+        }),
+        headers: headersFull,
+        method: 'POST'
+      });
 
-    if (response.status === 200) {
-      const {
-        data: todoObj
-      } = await response.json();
-      return todoObj;
+      if (response.status === 200) {
+        const {
+          data: todoObj
+        } = await response.json();
+        return todoObj;
+      }
+
+      throw new Error('Bad task creation. Please try again.');
+    } catch (error) {
+      throw new Error('Bad task creation. Please try again.');
     }
   },
   fetchTasks: async () => {
-    const response = await fetch(_config.MAIN_URL, {
-      headers,
-      method: 'GET'
-    });
+    try {
+      const response = await fetch(_config.MAIN_URL, {
+        headers,
+        method: 'GET'
+      });
 
-    if (response.status === 200) {
-      const {
-        data
-      } = await response.json();
-      return data;
+      if (response.status === 200) {
+        const {
+          data
+        } = await response.json();
+        return data;
+      }
+
+      throw new Error('Bad fetching tasks. Please try again.');
+    } catch (error) {
+      throw new Error('Bad fetching tasks. Please try again.');
     }
-
-    return [];
   },
   removeTask: async id => {
-    await fetch(`${_config.MAIN_URL}/${id}`, {
-      headers,
-      method: 'DELETE'
-    });
+    try {
+      await fetch(`${_config.MAIN_URL}/${id}`, {
+        headers,
+        method: 'DELETE'
+      });
+    } catch (error) {
+      throw new Error('Bad task remove. Please try again.');
+    }
   },
   updateTask: async message => {
-    const response = await fetch(_config.MAIN_URL, {
-      body: JSON.stringify([message]),
-      headers: headersFull,
-      method: 'PUT'
-    });
+    try {
+      const response = await fetch(_config.MAIN_URL, {
+        body: JSON.stringify([message]),
+        headers: headersFull,
+        method: 'PUT'
+      });
 
-    if (response.status === 200) {
-      const {
-        data
-      } = await response.json();
-      return data;
+      if (response.status === 200) {
+        const {
+          data
+        } = await response.json();
+        return data;
+      }
+
+      throw new Error('Bad task update. Please try again.');
+    } catch (error) {
+      throw new Error('Bad task update. Please try again.');
     }
-
-    return [];
   }
 };
 exports.api = api;
@@ -8801,4 +8847,4 @@ function _interopDefault(t){return t&&"object"==typeof t&&"default"in t?t.defaul
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=source.9bc83.js.map
+//# sourceMappingURL=source.b098a.js.map

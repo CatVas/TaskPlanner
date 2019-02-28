@@ -2,28 +2,28 @@
   "errors": [
   ],
   "warnings": [
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/source.9bc83.js (363 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  source (371 KiB)\n      css/28e1f045d910e6906034.f8c54.css\n      js/source.9bc83.js\n",
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/source.b098a.js (364 KiB)",
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  source (372 KiB)\n      css/28e1f045d910e6906034.fff03.css\n      js/source.b098a.js\n",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.16.1",
-  "hash": "f8c54e3cc9af9e2e674c",
-  "time": 12759,
-  "builtAt": 1550078704400,
+  "hash": "fff0386037e37423e527",
+  "time": 12369,
+  "builtAt": 1551370556690,
   "publicPath": "/TaskPlanner/",
   "outputPath": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/build",
   "assetsByChunkName": {
     "source": [
-      "css/28e1f045d910e6906034.f8c54.css",
-      "js/source.9bc83.js",
-      "css/28e1f045d910e6906034.f8c54.css.map",
-      "js/source.9bc83.js.map"
+      "css/28e1f045d910e6906034.fff03.css",
+      "js/source.b098a.js",
+      "css/28e1f045d910e6906034.fff03.css.map",
+      "js/source.b098a.js.map"
     ]
   },
   "assets": [
     {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico",
-      "size": 33310,
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
+      "size": 5309,
       "chunks": [
       ],
       "chunkNames": [
@@ -139,8 +139,8 @@
       "emitted": true
     },
     {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
-      "size": 1690,
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
+      "size": 1174,
       "chunks": [
       ],
       "chunkNames": [
@@ -150,15 +150,6 @@
     {
       "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
       "size": 953,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
-      "size": 1174,
       "chunks": [
       ],
       "chunkNames": [
@@ -211,6 +202,105 @@
       "emitted": true
     },
     {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
+      "size": 1690,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
+      "size": 1860,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
+      "size": 4385,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png",
+      "size": 896,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
+      "size": 5204,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
+      "size": 6537,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
+      "size": 5111,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
+      "size": 15923,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
+      "size": 16064,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
+      "size": 14552,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
+      "size": 14428,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
       "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png",
       "size": 424,
       "chunks": [
@@ -229,98 +319,8 @@
       "emitted": true
     },
     {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png",
-      "size": 896,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
-      "size": 1860,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
-      "size": 6537,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
-      "size": 4385,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
-      "size": 5111,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
-      "size": 5309,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
-      "size": 16064,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
-      "size": 15923,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
-      "size": 5204,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
-      "size": 14428,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
-      "size": 14552,
+      "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico",
+      "size": 33310,
       "chunks": [
       ],
       "chunkNames": [
@@ -382,7 +382,7 @@
       "emitted": true
     },
     {
-      "name": "css/28e1f045d910e6906034.f8c54.css",
+      "name": "css/28e1f045d910e6906034.fff03.css",
       "size": 8418,
       "chunks": [
         0
@@ -393,8 +393,8 @@
       "emitted": true
     },
     {
-      "name": "js/source.9bc83.js",
-      "size": 371270,
+      "name": "js/source.b098a.js",
+      "size": 372740,
       "chunks": [
         0
       ],
@@ -405,7 +405,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "css/28e1f045d910e6906034.f8c54.css.map",
+      "name": "css/28e1f045d910e6906034.fff03.css.map",
       "size": 12050,
       "chunks": [
         0
@@ -416,8 +416,8 @@
       "emitted": true
     },
     {
-      "name": "js/source.9bc83.js.map",
-      "size": 442118,
+      "name": "js/source.b098a.js.map",
+      "size": 444998,
       "chunks": [
         0
       ],
@@ -452,10 +452,10 @@
         0
       ],
       "assets": [
-        "css/28e1f045d910e6906034.f8c54.css",
-        "js/source.9bc83.js",
-        "css/28e1f045d910e6906034.f8c54.css.map",
-        "js/source.9bc83.js.map"
+        "css/28e1f045d910e6906034.fff03.css",
+        "js/source.b098a.js",
+        "css/28e1f045d910e6906034.fff03.css.map",
+        "js/source.b098a.js.map"
       ],
       "children": {
       },
@@ -470,10 +470,10 @@
         0
       ],
       "assets": [
-        "css/28e1f045d910e6906034.f8c54.css",
-        "js/source.9bc83.js",
-        "css/28e1f045d910e6906034.f8c54.css.map",
-        "js/source.9bc83.js.map"
+        "css/28e1f045d910e6906034.fff03.css",
+        "js/source.b098a.js",
+        "css/28e1f045d910e6906034.fff03.css.map",
+        "js/source.b098a.js.map"
       ],
       "children": {
       },
@@ -488,17 +488,17 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 372512,
+      "size": 373982,
       "names": [
         "source"
       ],
       "files": [
-        "css/28e1f045d910e6906034.f8c54.css",
-        "js/source.9bc83.js",
-        "css/28e1f045d910e6906034.f8c54.css.map",
-        "js/source.9bc83.js.map"
+        "css/28e1f045d910e6906034.fff03.css",
+        "js/source.b098a.js",
+        "css/28e1f045d910e6906034.fff03.css.map",
+        "js/source.b098a.js.map"
       ],
-      "hash": "9bc838b4d49e9596b72d",
+      "hash": "b098a4c88693e05ffdcc",
       "siblings": [
       ],
       "parents": [
@@ -930,9 +930,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-          "issuerId": 46,
-          "issuerName": "./source/components/Spinner/config.js",
+          "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+          "issuerId": 55,
+          "issuerName": "./source/components/Task/config.js",
           "issuerPath": [
             {
               "id": 16,
@@ -955,19 +955,19 @@
               "name": "./source/components/index.js"
             },
             {
-              "id": 44,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-              "name": "./source/components/Spinner/index.js"
+              "id": 49,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+              "name": "./source/components/Task/index.js"
             },
             {
-              "id": 45,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-              "name": "./source/components/Spinner/Spinner.js"
+              "id": 50,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+              "name": "./source/components/Task/Task.js"
             },
             {
-              "id": 46,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-              "name": "./source/components/Spinner/config.js"
+              "id": 55,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+              "name": "./source/components/Task/config.js"
             }
           ],
           "failed": false,
@@ -1093,9 +1093,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 17,
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 18,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "issuerPath": [
             {
               "id": 16,
@@ -1103,14 +1103,14 @@
               "name": "./source/index.js"
             },
             {
-              "id": 0,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/index.js",
-              "name": "./node_modules/react/index.js"
+              "id": 2,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
             },
             {
-              "id": 17,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/cjs/react.production.min.js",
-              "name": "./node_modules/react/cjs/react.production.min.js"
+              "id": 18,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
             }
           ],
           "failed": false,
@@ -2798,7 +2798,7 @@
           "name": "./source/components/Scheduler/Scheduler.js",
           "index": 22,
           "index2": 38,
-          "size": 7751,
+          "size": 8382,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2858,7 +2858,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _components = require(\"components\");\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactFlipMove = _interopRequireDefault(require(\"react-flip-move\"));\n\nvar _Checkbox = _interopRequireDefault(require(\"theme/assets/Checkbox\"));\n\nvar _stylesM = _interopRequireDefault(require(\"./styles.m.css\"));\n\nvar _REST = require(\"../../REST\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n// ! Импорт модуля API должен иметь именно такой вид (import { api } from '../../REST')\nclass Scheduler extends _react.Component {\n  constructor(...args) {\n    super(...args);\n\n    _defineProperty(this, \"state\", {\n      isTasksFetching: true,\n      newTaskMessage: '',\n      tasks: [],\n      tasksFilter: ''\n    });\n\n    _defineProperty(this, \"_completeAllTasksAsync\", async () => {\n      const {\n        tasks\n      } = this.state;\n      const incompleted = tasks.filter(task => !task.completed);\n\n      if (incompleted.length > 0) {\n        this._setTasksFetchingState(true);\n\n        await _REST.api.completeAllTasks(incompleted);\n        this.setState({\n          tasks: tasks.map(task => _objectSpread({}, task, {\n            completed: true\n          }))\n        });\n\n        this._setTasksFetchingState(false);\n      } else {\n        return null;\n      }\n    });\n\n    _defineProperty(this, \"_createTaskAsync\", async ev => {\n      ev.preventDefault();\n      const {\n        newTaskMessage\n      } = this.state;\n\n      if (newTaskMessage) {\n        this._setTasksFetchingState(true);\n\n        const newTask = await _REST.api.createTask(newTaskMessage);\n        this.setState(({\n          tasks\n        }) => ({\n          newTaskMessage: '',\n          tasks: [...tasks, newTask]\n        }));\n\n        this._setTasksFetchingState(false);\n      } else {\n        return null;\n      }\n    });\n\n    _defineProperty(this, \"_fetchTasksAsync\", async () => {\n      this._setTasksFetchingState(true);\n\n      const tasks = await _REST.api.fetchTasks();\n      this.setState({\n        tasks\n      });\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_getAllCompleted\", () => !this.state.tasks.find(t => !t.completed));\n\n    _defineProperty(this, \"_removeTaskAsync\", async id => {\n      this._setTasksFetchingState(true);\n\n      await _REST.api.removeTask(id);\n      this.setState(({\n        tasks\n      }) => ({\n        tasks: tasks.filter(task => task.id !== id)\n      }));\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_setTasksFetchingState\", isTasksFetching => {\n      this.setState({\n        isTasksFetching\n      });\n    });\n\n    _defineProperty(this, \"_sortTasks\", tasks => {\n      const completed = tasks.filter(({\n        completed\n      }) => completed).sort((task1, task2) => task1.favorite ? -1 : 0);\n      const favoriteOnly = tasks.filter(({\n        favorite,\n        completed\n      }) => favorite && !completed);\n      const other = tasks.filter(({\n        favorite,\n        completed\n      }) => !favorite && !completed);\n      return [...favoriteOnly, ...other, ...completed];\n    });\n\n    _defineProperty(this, \"_updateNewTaskMessage\", ev => {\n      this.setState({\n        newTaskMessage: ev.target.value\n      });\n    });\n\n    _defineProperty(this, \"_updateTaskAsync\", async updatedTask => {\n      this._setTasksFetchingState(true);\n\n      const res = await _REST.api.updateTask(updatedTask);\n      const updated = res[0];\n\n      if (updated) {\n        this.setState(({\n          tasks\n        }) => ({\n          tasks: tasks.map(task => task.id === updated.id ? updated : task)\n        }));\n      }\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_updateTasksFilter\", ev => {\n      this.setState({\n        tasksFilter: ev.target.value.toLowerCase()\n      });\n    });\n  }\n\n  componentDidMount() {\n    this._fetchTasksAsync();\n  }\n\n  render() {\n    const {\n      isTasksFetching,\n      newTaskMessage,\n      tasks,\n      tasksFilter\n    } = this.state;\n\n    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().indexOf(tasksFilter) > -1 : true));\n\n    return _react.default.createElement(\"section\", {\n      className: _stylesM.default.scheduler\n    }, _react.default.createElement(_components.Spinner, {\n      isSpinning: isTasksFetching\n    }), _react.default.createElement(\"main\", null, _react.default.createElement(\"header\", null, _react.default.createElement(\"h1\", null, \"\\u041F\\u043B\\u0430\\u043D\\u0438\\u0440\\u043E\\u0432\\u0449\\u0438\\u043A \\u0437\\u0430\\u0434\\u0430\\u0447\"), _react.default.createElement(\"input\", {\n      placeholder: \"\\u041F\\u043E\\u0438\\u0441\\u043A\",\n      type: \"search\",\n      value: tasksFilter,\n      onChange: this._updateTasksFilter\n    })), _react.default.createElement(\"section\", null, _react.default.createElement(\"form\", {\n      onSubmit: this._createTaskAsync\n    }, _react.default.createElement(\"input\", {\n      maxLength: 50,\n      placeholder: \"\\u041E\\u043F\\u0438\\u0441a\\u043D\\u0438\\u0435 \\u043C\\u043E\\u0435\\u0439 \\u043D\\u043E\\u0432\\u043E\\u0439 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438\",\n      type: \"text\",\n      value: newTaskMessage,\n      onChange: this._updateNewTaskMessage\n    }), _react.default.createElement(\"button\", null, \"\\u0414\\u043E\\u0431\\u0430\\u0432\\u0438\\u0442\\u044C \\u0437\\u0430\\u0434\\u0430\\u0447\\u0443\")), _react.default.createElement(\"ul\", null, _react.default.createElement(_reactFlipMove.default, {\n      duration: 400\n    }, tasksToShow.map(task => _react.default.createElement(_components.Task, _extends({\n      _removeTaskAsync: this._removeTaskAsync,\n      _updateTaskAsync: this._updateTaskAsync,\n      key: task.id\n    }, task)))))), _react.default.createElement(\"footer\", null, _react.default.createElement(_Checkbox.default, {\n      checked: this._getAllCompleted(),\n      color1: \"#363636\",\n      color2: \"#fff\",\n      onClick: this._completeAllTasksAsync\n    }), _react.default.createElement(\"span\", {\n      className: \"completeAllTasks\"\n    }, \"\\u0412\\u0441\\u0435 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438 \\u0432\\u044B\\u043F\\u043E\\u043B\\u043D\\u0435\\u043D\\u044B\"))));\n  }\n\n}\n\nexports.default = Scheduler;"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _components = require(\"components\");\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactFlipMove = _interopRequireDefault(require(\"react-flip-move\"));\n\nvar _Checkbox = _interopRequireDefault(require(\"theme/assets/Checkbox\"));\n\nvar _stylesM = _interopRequireDefault(require(\"./styles.m.css\"));\n\nvar _REST = require(\"../../REST\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n// ! Импорт модуля API должен иметь именно такой вид (import { api } from '../../REST')\nclass Scheduler extends _react.Component {\n  constructor(...args) {\n    super(...args);\n\n    _defineProperty(this, \"state\", {\n      isTasksFetching: true,\n      newTaskMessage: '',\n      tasks: [],\n      tasksFilter: ''\n    });\n\n    _defineProperty(this, \"_completeAllTasksAsync\", async () => {\n      const {\n        tasks\n      } = this.state;\n      const incompleted = tasks.filter(task => !task.completed);\n\n      if (incompleted.length <= 0) {\n        return null;\n      }\n\n      this._setTasksFetchingState(true);\n\n      try {\n        await _REST.api.completeAllTasks(incompleted);\n        this.setState({\n          tasks: tasks.map(task => _objectSpread({}, task, {\n            completed: true\n          }))\n        });\n      } catch (error) {\n        console.log('Bad all tasks complete. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_createTaskAsync\", async ev => {\n      ev.preventDefault();\n      const {\n        newTaskMessage\n      } = this.state;\n\n      if (!newTaskMessage) {\n        return null;\n      }\n\n      this._setTasksFetchingState(true);\n\n      try {\n        const newTask = await _REST.api.createTask(newTaskMessage);\n        this.setState(({\n          tasks\n        }) => ({\n          newTaskMessage: '',\n          tasks: [...tasks, newTask]\n        }));\n      } catch (error) {\n        console.log('Bad task creation. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_fetchTasksAsync\", async () => {\n      this._setTasksFetchingState(true);\n\n      try {\n        const tasks = await _REST.api.fetchTasks();\n        this.setState({\n          tasks\n        });\n      } catch (error) {\n        console.log('Bad tasks fetching. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_getAllCompleted\", () => !this.state.tasks.find(task => !task.completed));\n\n    _defineProperty(this, \"_removeTaskAsync\", async id => {\n      this._setTasksFetchingState(true);\n\n      try {\n        await _REST.api.removeTask(id);\n        this.setState(({\n          tasks\n        }) => ({\n          tasks: tasks.filter(task => task.id !== id)\n        }));\n      } catch (error) {\n        console.log('Bad task removing. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_setTasksFetchingState\", isTasksFetching => {\n      this.setState({\n        isTasksFetching\n      });\n    });\n\n    _defineProperty(this, \"_sortTasks\", tasks => {\n      const completedTasks = tasks.filter(({\n        completed\n      }) => completed).sort(task1 => task1.favorite ? -1 : 0);\n      const favoriteOnly = tasks.filter(({\n        favorite,\n        completed\n      }) => favorite && !completed);\n      const other = tasks.filter(({\n        favorite,\n        completed\n      }) => !favorite && !completed);\n      return [...favoriteOnly, ...other, ...completedTasks];\n    });\n\n    _defineProperty(this, \"_updateNewTaskMessage\", ev => {\n      this.setState({\n        newTaskMessage: ev.target.value\n      });\n    });\n\n    _defineProperty(this, \"_updateTaskAsync\", async updatedTask => {\n      this._setTasksFetchingState(true);\n\n      try {\n        const res = await _REST.api.updateTask(updatedTask);\n        const updated = res[0];\n\n        if (updated) {\n          this.setState(({\n            tasks\n          }) => ({\n            tasks: tasks.map(task => task.id === updated.id ? updated : task)\n          }));\n        }\n      } catch (error) {\n        console.log('Bad task update. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_updateTasksFilter\", ev => {\n      this.setState({\n        tasksFilter: ev.target.value.toLowerCase()\n      });\n    });\n  }\n\n  componentDidMount() {\n    this._fetchTasksAsync();\n  }\n\n  render() {\n    const {\n      isTasksFetching,\n      newTaskMessage,\n      tasks,\n      tasksFilter\n    } = this.state;\n\n    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().includes(tasksFilter) : true));\n\n    return _react.default.createElement(\"section\", {\n      className: _stylesM.default.scheduler\n    }, _react.default.createElement(_components.Spinner, {\n      isSpinning: isTasksFetching\n    }), _react.default.createElement(\"main\", null, _react.default.createElement(\"header\", null, _react.default.createElement(\"h1\", null, \"\\u041F\\u043B\\u0430\\u043D\\u0438\\u0440\\u043E\\u0432\\u0449\\u0438\\u043A \\u0437\\u0430\\u0434\\u0430\\u0447\"), _react.default.createElement(\"input\", {\n      placeholder: \"\\u041F\\u043E\\u0438\\u0441\\u043A\",\n      type: \"search\",\n      value: tasksFilter,\n      onChange: this._updateTasksFilter\n    })), _react.default.createElement(\"section\", null, _react.default.createElement(\"form\", {\n      onSubmit: this._createTaskAsync\n    }, _react.default.createElement(\"input\", {\n      maxLength: 50,\n      placeholder: \"\\u041E\\u043F\\u0438\\u0441a\\u043D\\u0438\\u0435 \\u043C\\u043E\\u0435\\u0439 \\u043D\\u043E\\u0432\\u043E\\u0439 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438\",\n      type: \"text\",\n      value: newTaskMessage,\n      onChange: this._updateNewTaskMessage\n    }), _react.default.createElement(\"button\", null, \"\\u0414\\u043E\\u0431\\u0430\\u0432\\u0438\\u0442\\u044C \\u0437\\u0430\\u0434\\u0430\\u0447\\u0443\")), _react.default.createElement(\"ul\", null, _react.default.createElement(_reactFlipMove.default, {\n      duration: 400\n    }, tasksToShow.map(task => _react.default.createElement(_components.Task, _extends({\n      _removeTaskAsync: this._removeTaskAsync,\n      _updateTaskAsync: this._updateTaskAsync,\n      key: task.id\n    }, task)))))), _react.default.createElement(\"footer\", null, _react.default.createElement(_Checkbox.default, {\n      checked: this._getAllCompleted(),\n      color1: \"#363636\",\n      color2: \"#fff\",\n      onClick: this._completeAllTasksAsync\n    }), _react.default.createElement(\"span\", {\n      className: \"completeAllTasks\"\n    }, \"\\u0412\\u0441\\u0435 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438 \\u0432\\u044B\\u043F\\u043E\\u043B\\u043D\\u0435\\u043D\\u044B\"))));\n  }\n\n}\n\nexports.default = Scheduler;"
         },
         {
           "id": 31,
@@ -2974,19 +2974,19 @@
               "name": "./source/components/index.js"
             },
             {
-              "id": 44,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-              "name": "./source/components/Spinner/index.js"
+              "id": 49,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+              "name": "./source/components/Task/index.js"
             },
             {
-              "id": 45,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-              "name": "./source/components/Spinner/Spinner.js"
+              "id": 50,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+              "name": "./source/components/Task/Task.js"
             },
             {
-              "id": 46,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-              "name": "./source/components/Spinner/config.js"
+              "id": 55,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+              "name": "./source/components/Task/config.js"
             },
             {
               "id": 3,
@@ -3057,19 +3057,19 @@
               "name": "./source/components/index.js"
             },
             {
-              "id": 44,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-              "name": "./source/components/Spinner/index.js"
+              "id": 49,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+              "name": "./source/components/Task/index.js"
             },
             {
-              "id": 45,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-              "name": "./source/components/Spinner/Spinner.js"
+              "id": 50,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+              "name": "./source/components/Task/Task.js"
             },
             {
-              "id": 46,
-              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-              "name": "./source/components/Spinner/config.js"
+              "id": 55,
+              "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+              "name": "./source/components/Task/config.js"
             },
             {
               "id": 3,
@@ -3887,7 +3887,7 @@
           "name": "./source/REST/api.js",
           "index": 43,
           "index2": 36,
-          "size": 2470,
+          "size": 3309,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3957,7 +3957,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 7,
-          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.api = void 0;\n\nvar _config = require(\"./config\");\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nconst headers = {\n  Authorization: _config.TOKEN\n};\n\nconst headersFull = _objectSpread({}, headers, {\n  'Content-Type': 'application/json'\n});\n\nconst api = {\n  completeAllTasks: async incompleted => {\n    const res = await Promise.all(incompleted.map(ic => fetch(_config.MAIN_URL, {\n      body: JSON.stringify([_objectSpread({}, ic, {\n        completed: true\n      })]),\n      headers: headersFull,\n      method: 'PUT'\n    })));\n    const notPassed = res.find(r => r.status !== 200);\n\n    if (notPassed) {\n      throw new Error('Bad all tasks complete');\n    }\n  },\n  createTask: async message => {\n    const response = await fetch(_config.MAIN_URL, {\n      body: JSON.stringify({\n        message\n      }),\n      headers: headersFull,\n      method: 'POST'\n    });\n\n    if (response.status === 200) {\n      const {\n        data: todoObj\n      } = await response.json();\n      return todoObj;\n    }\n  },\n  fetchTasks: async () => {\n    const response = await fetch(_config.MAIN_URL, {\n      headers,\n      method: 'GET'\n    });\n\n    if (response.status === 200) {\n      const {\n        data\n      } = await response.json();\n      return data;\n    }\n\n    return [];\n  },\n  removeTask: async id => {\n    await fetch(`${_config.MAIN_URL}/${id}`, {\n      headers,\n      method: 'DELETE'\n    });\n  },\n  updateTask: async message => {\n    const response = await fetch(_config.MAIN_URL, {\n      body: JSON.stringify([message]),\n      headers: headersFull,\n      method: 'PUT'\n    });\n\n    if (response.status === 200) {\n      const {\n        data\n      } = await response.json();\n      return data;\n    }\n\n    return [];\n  }\n};\nexports.api = api;"
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.api = void 0;\n\nvar _config = require(\"./config\");\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nconst completeTask = task => _objectSpread({}, task, {\n  completed: true\n});\n\nconst headers = {\n  Authorization: _config.TOKEN\n};\n\nconst headersFull = _objectSpread({}, headers, {\n  'Content-Type': 'application/json'\n});\n\nconst fetchCompletedTask = incompletedTask => fetch(_config.MAIN_URL, {\n  body: JSON.stringify([completeTask(incompletedTask)]),\n  headers: headersFull,\n  method: 'PUT'\n});\n\nconst api = {\n  completeAllTasks: async incompleted => {\n    try {\n      const res = await Promise.all(incompleted.map(fetchCompletedTask));\n      const notPassed = res.find(result => result.status !== 200);\n\n      if (notPassed) {\n        throw new Error('Bad all tasks complete');\n      }\n    } catch (error) {\n      throw new Error('Bad all tasks complete');\n    }\n  },\n  createTask: async message => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        body: JSON.stringify({\n          message\n        }),\n        headers: headersFull,\n        method: 'POST'\n      });\n\n      if (response.status === 200) {\n        const {\n          data: todoObj\n        } = await response.json();\n        return todoObj;\n      }\n\n      throw new Error('Bad task creation. Please try again.');\n    } catch (error) {\n      throw new Error('Bad task creation. Please try again.');\n    }\n  },\n  fetchTasks: async () => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        headers,\n        method: 'GET'\n      });\n\n      if (response.status === 200) {\n        const {\n          data\n        } = await response.json();\n        return data;\n      }\n\n      throw new Error('Bad fetching tasks. Please try again.');\n    } catch (error) {\n      throw new Error('Bad fetching tasks. Please try again.');\n    }\n  },\n  removeTask: async id => {\n    try {\n      await fetch(`${_config.MAIN_URL}/${id}`, {\n        headers,\n        method: 'DELETE'\n      });\n    } catch (error) {\n      throw new Error('Bad task remove. Please try again.');\n    }\n  },\n  updateTask: async message => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        body: JSON.stringify([message]),\n        headers: headersFull,\n        method: 'PUT'\n      });\n\n      if (response.status === 200) {\n        const {\n          data\n        } = await response.json();\n        return data;\n      }\n\n      throw new Error('Bad task update. Please try again.');\n    } catch (error) {\n      throw new Error('Bad task update. Please try again.');\n    }\n  }\n};\nexports.api = api;"
         },
         {
           "id": 44,
@@ -5525,9 +5525,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-      "issuerId": 46,
-      "issuerName": "./source/components/Spinner/config.js",
+      "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+      "issuerId": 55,
+      "issuerName": "./source/components/Task/config.js",
       "issuerPath": [
         {
           "id": 16,
@@ -5550,19 +5550,19 @@
           "name": "./source/components/index.js"
         },
         {
-          "id": 44,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-          "name": "./source/components/Spinner/index.js"
+          "id": 49,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+          "name": "./source/components/Task/index.js"
         },
         {
-          "id": 45,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-          "name": "./source/components/Spinner/Spinner.js"
+          "id": 50,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+          "name": "./source/components/Task/Task.js"
         },
         {
-          "id": 46,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-          "name": "./source/components/Spinner/config.js"
+          "id": 55,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+          "name": "./source/components/Task/config.js"
         }
       ],
       "failed": false,
@@ -5688,9 +5688,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 17,
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 18,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "issuerPath": [
         {
           "id": 16,
@@ -5698,14 +5698,14 @@
           "name": "./source/index.js"
         },
         {
-          "id": 0,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/index.js",
-          "name": "./node_modules/react/index.js"
+          "id": 2,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
         },
         {
-          "id": 17,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react/cjs/react.production.min.js",
-          "name": "./node_modules/react/cjs/react.production.min.js"
+          "id": 18,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
         }
       ],
       "failed": false,
@@ -7393,7 +7393,7 @@
       "name": "./source/components/Scheduler/Scheduler.js",
       "index": 22,
       "index2": 38,
-      "size": 7751,
+      "size": 8382,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -7453,7 +7453,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _components = require(\"components\");\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactFlipMove = _interopRequireDefault(require(\"react-flip-move\"));\n\nvar _Checkbox = _interopRequireDefault(require(\"theme/assets/Checkbox\"));\n\nvar _stylesM = _interopRequireDefault(require(\"./styles.m.css\"));\n\nvar _REST = require(\"../../REST\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n// ! Импорт модуля API должен иметь именно такой вид (import { api } from '../../REST')\nclass Scheduler extends _react.Component {\n  constructor(...args) {\n    super(...args);\n\n    _defineProperty(this, \"state\", {\n      isTasksFetching: true,\n      newTaskMessage: '',\n      tasks: [],\n      tasksFilter: ''\n    });\n\n    _defineProperty(this, \"_completeAllTasksAsync\", async () => {\n      const {\n        tasks\n      } = this.state;\n      const incompleted = tasks.filter(task => !task.completed);\n\n      if (incompleted.length > 0) {\n        this._setTasksFetchingState(true);\n\n        await _REST.api.completeAllTasks(incompleted);\n        this.setState({\n          tasks: tasks.map(task => _objectSpread({}, task, {\n            completed: true\n          }))\n        });\n\n        this._setTasksFetchingState(false);\n      } else {\n        return null;\n      }\n    });\n\n    _defineProperty(this, \"_createTaskAsync\", async ev => {\n      ev.preventDefault();\n      const {\n        newTaskMessage\n      } = this.state;\n\n      if (newTaskMessage) {\n        this._setTasksFetchingState(true);\n\n        const newTask = await _REST.api.createTask(newTaskMessage);\n        this.setState(({\n          tasks\n        }) => ({\n          newTaskMessage: '',\n          tasks: [...tasks, newTask]\n        }));\n\n        this._setTasksFetchingState(false);\n      } else {\n        return null;\n      }\n    });\n\n    _defineProperty(this, \"_fetchTasksAsync\", async () => {\n      this._setTasksFetchingState(true);\n\n      const tasks = await _REST.api.fetchTasks();\n      this.setState({\n        tasks\n      });\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_getAllCompleted\", () => !this.state.tasks.find(t => !t.completed));\n\n    _defineProperty(this, \"_removeTaskAsync\", async id => {\n      this._setTasksFetchingState(true);\n\n      await _REST.api.removeTask(id);\n      this.setState(({\n        tasks\n      }) => ({\n        tasks: tasks.filter(task => task.id !== id)\n      }));\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_setTasksFetchingState\", isTasksFetching => {\n      this.setState({\n        isTasksFetching\n      });\n    });\n\n    _defineProperty(this, \"_sortTasks\", tasks => {\n      const completed = tasks.filter(({\n        completed\n      }) => completed).sort((task1, task2) => task1.favorite ? -1 : 0);\n      const favoriteOnly = tasks.filter(({\n        favorite,\n        completed\n      }) => favorite && !completed);\n      const other = tasks.filter(({\n        favorite,\n        completed\n      }) => !favorite && !completed);\n      return [...favoriteOnly, ...other, ...completed];\n    });\n\n    _defineProperty(this, \"_updateNewTaskMessage\", ev => {\n      this.setState({\n        newTaskMessage: ev.target.value\n      });\n    });\n\n    _defineProperty(this, \"_updateTaskAsync\", async updatedTask => {\n      this._setTasksFetchingState(true);\n\n      const res = await _REST.api.updateTask(updatedTask);\n      const updated = res[0];\n\n      if (updated) {\n        this.setState(({\n          tasks\n        }) => ({\n          tasks: tasks.map(task => task.id === updated.id ? updated : task)\n        }));\n      }\n\n      this._setTasksFetchingState(false);\n    });\n\n    _defineProperty(this, \"_updateTasksFilter\", ev => {\n      this.setState({\n        tasksFilter: ev.target.value.toLowerCase()\n      });\n    });\n  }\n\n  componentDidMount() {\n    this._fetchTasksAsync();\n  }\n\n  render() {\n    const {\n      isTasksFetching,\n      newTaskMessage,\n      tasks,\n      tasksFilter\n    } = this.state;\n\n    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().indexOf(tasksFilter) > -1 : true));\n\n    return _react.default.createElement(\"section\", {\n      className: _stylesM.default.scheduler\n    }, _react.default.createElement(_components.Spinner, {\n      isSpinning: isTasksFetching\n    }), _react.default.createElement(\"main\", null, _react.default.createElement(\"header\", null, _react.default.createElement(\"h1\", null, \"\\u041F\\u043B\\u0430\\u043D\\u0438\\u0440\\u043E\\u0432\\u0449\\u0438\\u043A \\u0437\\u0430\\u0434\\u0430\\u0447\"), _react.default.createElement(\"input\", {\n      placeholder: \"\\u041F\\u043E\\u0438\\u0441\\u043A\",\n      type: \"search\",\n      value: tasksFilter,\n      onChange: this._updateTasksFilter\n    })), _react.default.createElement(\"section\", null, _react.default.createElement(\"form\", {\n      onSubmit: this._createTaskAsync\n    }, _react.default.createElement(\"input\", {\n      maxLength: 50,\n      placeholder: \"\\u041E\\u043F\\u0438\\u0441a\\u043D\\u0438\\u0435 \\u043C\\u043E\\u0435\\u0439 \\u043D\\u043E\\u0432\\u043E\\u0439 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438\",\n      type: \"text\",\n      value: newTaskMessage,\n      onChange: this._updateNewTaskMessage\n    }), _react.default.createElement(\"button\", null, \"\\u0414\\u043E\\u0431\\u0430\\u0432\\u0438\\u0442\\u044C \\u0437\\u0430\\u0434\\u0430\\u0447\\u0443\")), _react.default.createElement(\"ul\", null, _react.default.createElement(_reactFlipMove.default, {\n      duration: 400\n    }, tasksToShow.map(task => _react.default.createElement(_components.Task, _extends({\n      _removeTaskAsync: this._removeTaskAsync,\n      _updateTaskAsync: this._updateTaskAsync,\n      key: task.id\n    }, task)))))), _react.default.createElement(\"footer\", null, _react.default.createElement(_Checkbox.default, {\n      checked: this._getAllCompleted(),\n      color1: \"#363636\",\n      color2: \"#fff\",\n      onClick: this._completeAllTasksAsync\n    }), _react.default.createElement(\"span\", {\n      className: \"completeAllTasks\"\n    }, \"\\u0412\\u0441\\u0435 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438 \\u0432\\u044B\\u043F\\u043E\\u043B\\u043D\\u0435\\u043D\\u044B\"))));\n  }\n\n}\n\nexports.default = Scheduler;"
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _components = require(\"components\");\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactFlipMove = _interopRequireDefault(require(\"react-flip-move\"));\n\nvar _Checkbox = _interopRequireDefault(require(\"theme/assets/Checkbox\"));\n\nvar _stylesM = _interopRequireDefault(require(\"./styles.m.css\"));\n\nvar _REST = require(\"../../REST\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n// ! Импорт модуля API должен иметь именно такой вид (import { api } from '../../REST')\nclass Scheduler extends _react.Component {\n  constructor(...args) {\n    super(...args);\n\n    _defineProperty(this, \"state\", {\n      isTasksFetching: true,\n      newTaskMessage: '',\n      tasks: [],\n      tasksFilter: ''\n    });\n\n    _defineProperty(this, \"_completeAllTasksAsync\", async () => {\n      const {\n        tasks\n      } = this.state;\n      const incompleted = tasks.filter(task => !task.completed);\n\n      if (incompleted.length <= 0) {\n        return null;\n      }\n\n      this._setTasksFetchingState(true);\n\n      try {\n        await _REST.api.completeAllTasks(incompleted);\n        this.setState({\n          tasks: tasks.map(task => _objectSpread({}, task, {\n            completed: true\n          }))\n        });\n      } catch (error) {\n        console.log('Bad all tasks complete. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_createTaskAsync\", async ev => {\n      ev.preventDefault();\n      const {\n        newTaskMessage\n      } = this.state;\n\n      if (!newTaskMessage) {\n        return null;\n      }\n\n      this._setTasksFetchingState(true);\n\n      try {\n        const newTask = await _REST.api.createTask(newTaskMessage);\n        this.setState(({\n          tasks\n        }) => ({\n          newTaskMessage: '',\n          tasks: [...tasks, newTask]\n        }));\n      } catch (error) {\n        console.log('Bad task creation. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_fetchTasksAsync\", async () => {\n      this._setTasksFetchingState(true);\n\n      try {\n        const tasks = await _REST.api.fetchTasks();\n        this.setState({\n          tasks\n        });\n      } catch (error) {\n        console.log('Bad tasks fetching. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_getAllCompleted\", () => !this.state.tasks.find(task => !task.completed));\n\n    _defineProperty(this, \"_removeTaskAsync\", async id => {\n      this._setTasksFetchingState(true);\n\n      try {\n        await _REST.api.removeTask(id);\n        this.setState(({\n          tasks\n        }) => ({\n          tasks: tasks.filter(task => task.id !== id)\n        }));\n      } catch (error) {\n        console.log('Bad task removing. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_setTasksFetchingState\", isTasksFetching => {\n      this.setState({\n        isTasksFetching\n      });\n    });\n\n    _defineProperty(this, \"_sortTasks\", tasks => {\n      const completedTasks = tasks.filter(({\n        completed\n      }) => completed).sort(task1 => task1.favorite ? -1 : 0);\n      const favoriteOnly = tasks.filter(({\n        favorite,\n        completed\n      }) => favorite && !completed);\n      const other = tasks.filter(({\n        favorite,\n        completed\n      }) => !favorite && !completed);\n      return [...favoriteOnly, ...other, ...completedTasks];\n    });\n\n    _defineProperty(this, \"_updateNewTaskMessage\", ev => {\n      this.setState({\n        newTaskMessage: ev.target.value\n      });\n    });\n\n    _defineProperty(this, \"_updateTaskAsync\", async updatedTask => {\n      this._setTasksFetchingState(true);\n\n      try {\n        const res = await _REST.api.updateTask(updatedTask);\n        const updated = res[0];\n\n        if (updated) {\n          this.setState(({\n            tasks\n          }) => ({\n            tasks: tasks.map(task => task.id === updated.id ? updated : task)\n          }));\n        }\n      } catch (error) {\n        console.log('Bad task update. Please try again.');\n      } finally {\n        this._setTasksFetchingState(false);\n      }\n    });\n\n    _defineProperty(this, \"_updateTasksFilter\", ev => {\n      this.setState({\n        tasksFilter: ev.target.value.toLowerCase()\n      });\n    });\n  }\n\n  componentDidMount() {\n    this._fetchTasksAsync();\n  }\n\n  render() {\n    const {\n      isTasksFetching,\n      newTaskMessage,\n      tasks,\n      tasksFilter\n    } = this.state;\n\n    const tasksToShow = this._sortTasks(tasks.filter(task => tasksFilter ? task.message.toLowerCase().includes(tasksFilter) : true));\n\n    return _react.default.createElement(\"section\", {\n      className: _stylesM.default.scheduler\n    }, _react.default.createElement(_components.Spinner, {\n      isSpinning: isTasksFetching\n    }), _react.default.createElement(\"main\", null, _react.default.createElement(\"header\", null, _react.default.createElement(\"h1\", null, \"\\u041F\\u043B\\u0430\\u043D\\u0438\\u0440\\u043E\\u0432\\u0449\\u0438\\u043A \\u0437\\u0430\\u0434\\u0430\\u0447\"), _react.default.createElement(\"input\", {\n      placeholder: \"\\u041F\\u043E\\u0438\\u0441\\u043A\",\n      type: \"search\",\n      value: tasksFilter,\n      onChange: this._updateTasksFilter\n    })), _react.default.createElement(\"section\", null, _react.default.createElement(\"form\", {\n      onSubmit: this._createTaskAsync\n    }, _react.default.createElement(\"input\", {\n      maxLength: 50,\n      placeholder: \"\\u041E\\u043F\\u0438\\u0441a\\u043D\\u0438\\u0435 \\u043C\\u043E\\u0435\\u0439 \\u043D\\u043E\\u0432\\u043E\\u0439 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438\",\n      type: \"text\",\n      value: newTaskMessage,\n      onChange: this._updateNewTaskMessage\n    }), _react.default.createElement(\"button\", null, \"\\u0414\\u043E\\u0431\\u0430\\u0432\\u0438\\u0442\\u044C \\u0437\\u0430\\u0434\\u0430\\u0447\\u0443\")), _react.default.createElement(\"ul\", null, _react.default.createElement(_reactFlipMove.default, {\n      duration: 400\n    }, tasksToShow.map(task => _react.default.createElement(_components.Task, _extends({\n      _removeTaskAsync: this._removeTaskAsync,\n      _updateTaskAsync: this._updateTaskAsync,\n      key: task.id\n    }, task)))))), _react.default.createElement(\"footer\", null, _react.default.createElement(_Checkbox.default, {\n      checked: this._getAllCompleted(),\n      color1: \"#363636\",\n      color2: \"#fff\",\n      onClick: this._completeAllTasksAsync\n    }), _react.default.createElement(\"span\", {\n      className: \"completeAllTasks\"\n    }, \"\\u0412\\u0441\\u0435 \\u0437\\u0430\\u0434\\u0430\\u0447\\u0438 \\u0432\\u044B\\u043F\\u043E\\u043B\\u043D\\u0435\\u043D\\u044B\"))));\n  }\n\n}\n\nexports.default = Scheduler;"
     },
     {
       "id": 31,
@@ -7569,19 +7569,19 @@
           "name": "./source/components/index.js"
         },
         {
-          "id": 44,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-          "name": "./source/components/Spinner/index.js"
+          "id": 49,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+          "name": "./source/components/Task/index.js"
         },
         {
-          "id": 45,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-          "name": "./source/components/Spinner/Spinner.js"
+          "id": 50,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+          "name": "./source/components/Task/Task.js"
         },
         {
-          "id": 46,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-          "name": "./source/components/Spinner/config.js"
+          "id": 55,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+          "name": "./source/components/Task/config.js"
         },
         {
           "id": 3,
@@ -7652,19 +7652,19 @@
           "name": "./source/components/index.js"
         },
         {
-          "id": 44,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/index.js",
-          "name": "./source/components/Spinner/index.js"
+          "id": 49,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/index.js",
+          "name": "./source/components/Task/index.js"
         },
         {
-          "id": 45,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/Spinner.js",
-          "name": "./source/components/Spinner/Spinner.js"
+          "id": 50,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/Task.js",
+          "name": "./source/components/Task/Task.js"
         },
         {
-          "id": 46,
-          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Spinner/config.js",
-          "name": "./source/components/Spinner/config.js"
+          "id": 55,
+          "identifier": "/media/catvas/Work/Work/webdev/LectrumReactPersonal/node_modules/babel-loader/lib/index.js!/media/catvas/Work/Work/webdev/LectrumReactPersonal/source/components/Task/config.js",
+          "name": "./source/components/Task/config.js"
         },
         {
           "id": 3,
@@ -8482,7 +8482,7 @@
       "name": "./source/REST/api.js",
       "index": 43,
       "index2": 36,
-      "size": 2470,
+      "size": 3309,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -8552,7 +8552,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 7,
-      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.api = void 0;\n\nvar _config = require(\"./config\");\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nconst headers = {\n  Authorization: _config.TOKEN\n};\n\nconst headersFull = _objectSpread({}, headers, {\n  'Content-Type': 'application/json'\n});\n\nconst api = {\n  completeAllTasks: async incompleted => {\n    const res = await Promise.all(incompleted.map(ic => fetch(_config.MAIN_URL, {\n      body: JSON.stringify([_objectSpread({}, ic, {\n        completed: true\n      })]),\n      headers: headersFull,\n      method: 'PUT'\n    })));\n    const notPassed = res.find(r => r.status !== 200);\n\n    if (notPassed) {\n      throw new Error('Bad all tasks complete');\n    }\n  },\n  createTask: async message => {\n    const response = await fetch(_config.MAIN_URL, {\n      body: JSON.stringify({\n        message\n      }),\n      headers: headersFull,\n      method: 'POST'\n    });\n\n    if (response.status === 200) {\n      const {\n        data: todoObj\n      } = await response.json();\n      return todoObj;\n    }\n  },\n  fetchTasks: async () => {\n    const response = await fetch(_config.MAIN_URL, {\n      headers,\n      method: 'GET'\n    });\n\n    if (response.status === 200) {\n      const {\n        data\n      } = await response.json();\n      return data;\n    }\n\n    return [];\n  },\n  removeTask: async id => {\n    await fetch(`${_config.MAIN_URL}/${id}`, {\n      headers,\n      method: 'DELETE'\n    });\n  },\n  updateTask: async message => {\n    const response = await fetch(_config.MAIN_URL, {\n      body: JSON.stringify([message]),\n      headers: headersFull,\n      method: 'PUT'\n    });\n\n    if (response.status === 200) {\n      const {\n        data\n      } = await response.json();\n      return data;\n    }\n\n    return [];\n  }\n};\nexports.api = api;"
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.api = void 0;\n\nvar _config = require(\"./config\");\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nconst completeTask = task => _objectSpread({}, task, {\n  completed: true\n});\n\nconst headers = {\n  Authorization: _config.TOKEN\n};\n\nconst headersFull = _objectSpread({}, headers, {\n  'Content-Type': 'application/json'\n});\n\nconst fetchCompletedTask = incompletedTask => fetch(_config.MAIN_URL, {\n  body: JSON.stringify([completeTask(incompletedTask)]),\n  headers: headersFull,\n  method: 'PUT'\n});\n\nconst api = {\n  completeAllTasks: async incompleted => {\n    try {\n      const res = await Promise.all(incompleted.map(fetchCompletedTask));\n      const notPassed = res.find(result => result.status !== 200);\n\n      if (notPassed) {\n        throw new Error('Bad all tasks complete');\n      }\n    } catch (error) {\n      throw new Error('Bad all tasks complete');\n    }\n  },\n  createTask: async message => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        body: JSON.stringify({\n          message\n        }),\n        headers: headersFull,\n        method: 'POST'\n      });\n\n      if (response.status === 200) {\n        const {\n          data: todoObj\n        } = await response.json();\n        return todoObj;\n      }\n\n      throw new Error('Bad task creation. Please try again.');\n    } catch (error) {\n      throw new Error('Bad task creation. Please try again.');\n    }\n  },\n  fetchTasks: async () => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        headers,\n        method: 'GET'\n      });\n\n      if (response.status === 200) {\n        const {\n          data\n        } = await response.json();\n        return data;\n      }\n\n      throw new Error('Bad fetching tasks. Please try again.');\n    } catch (error) {\n      throw new Error('Bad fetching tasks. Please try again.');\n    }\n  },\n  removeTask: async id => {\n    try {\n      await fetch(`${_config.MAIN_URL}/${id}`, {\n        headers,\n        method: 'DELETE'\n      });\n    } catch (error) {\n      throw new Error('Bad task remove. Please try again.');\n    }\n  },\n  updateTask: async message => {\n    try {\n      const response = await fetch(_config.MAIN_URL, {\n        body: JSON.stringify([message]),\n        headers: headersFull,\n        method: 'PUT'\n      });\n\n      if (response.status === 200) {\n        const {\n          data\n        } = await response.json();\n        return data;\n      }\n\n      throw new Error('Bad task update. Please try again.');\n    } catch (error) {\n      throw new Error('Bad task update. Please try again.');\n    }\n  }\n};\nexports.api = api;"
     },
     {
       "id": 44,
@@ -9696,8 +9696,8 @@
       },
       "assets": [
         {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png",
-          "size": 445,
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
+          "size": 1690,
           "chunks": [
           ],
           "chunkNames": [
@@ -9813,8 +9813,8 @@
           "emitted": true
         },
         {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
-          "size": 1690,
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
+          "size": 1174,
           "chunks": [
           ],
           "chunkNames": [
@@ -9824,15 +9824,6 @@
         {
           "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
           "size": 953,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
-          "size": 1174,
           "chunks": [
           ],
           "chunkNames": [
@@ -9876,8 +9867,107 @@
           "emitted": true
         },
         {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png",
+          "size": 445,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
           "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png",
           "size": 896,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
+          "size": 1860,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
+          "size": 4385,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
+          "size": 5309,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
+          "size": 5204,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
+          "size": 6537,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
+          "size": 5111,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
+          "size": 15923,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
+          "size": 16064,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
+          "size": 14552,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
+          "size": 14428,
           "chunks": [
           ],
           "chunkNames": [
@@ -9905,96 +9995,6 @@
         {
           "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico",
           "size": 33310,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
-          "size": 1860,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
-          "size": 6537,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
-          "size": 4385,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
-          "size": 5111,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
-          "size": 5309,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
-          "size": 16064,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
-          "size": 15923,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
-          "size": 5204,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
-          "size": 14428,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
-        },
-        {
-          "name": "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
-          "size": 14552,
           "chunks": [
           ],
           "chunkNames": [
@@ -10056,7 +10056,7 @@
           "emitted": true
         },
         {
-          "name": "iconstats-a4d17bf820ef17df13c2.json",
+          "name": "iconstats-41e85b5b43d9c9813c20.json",
           "size": 8195,
           "chunks": [
             0
@@ -10072,7 +10072,7 @@
             0
           ],
           "assets": [
-            "iconstats-a4d17bf820ef17df13c2.json"
+            "iconstats-41e85b5b43d9c9813c20.json"
           ],
           "children": {
           },
@@ -10086,7 +10086,7 @@
             0
           ],
           "assets": [
-            "iconstats-a4d17bf820ef17df13c2.json"
+            "iconstats-41e85b5b43d9c9813c20.json"
           ],
           "children": {
           },
@@ -10104,9 +10104,9 @@
           "names": [
           ],
           "files": [
-            "iconstats-a4d17bf820ef17df13c2.json"
+            "iconstats-41e85b5b43d9c9813c20.json"
           ],
-          "hash": "3b449d904d08500387bf",
+          "hash": "d0e64f47528c52b9249b",
           "siblings": [
           ],
           "parents": [
@@ -10151,27 +10151,27 @@
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
+                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
-                "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png",
                 "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png",
@@ -10195,7 +10195,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "module.exports = {\"outputFilePrefix\":\"images/favicon/icon-c566bb626c9412aec2582936a79e3196\",\"html\":[\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\\\">\",\"<meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\">\",\"<meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"react-personal-project\\\">\",\"<meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"theme-color\\\" content=\\\"#fff\\\">\",\"<meta name=\\\"application-name\\\" content=\\\"react-personal-project\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\\\">\",\"<link rel=\\\"shortcut icon\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\\\">\"],\"files\":[\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-precomposed.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-167x167.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.json\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.webapp\"]}"
+              "source": "module.exports = {\"outputFilePrefix\":\"images/favicon/icon-c566bb626c9412aec2582936a79e3196\",\"html\":[\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\\\">\",\"<meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\">\",\"<meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"react-personal-project\\\">\",\"<meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"theme-color\\\" content=\\\"#fff\\\">\",\"<meta name=\\\"application-name\\\" content=\\\"react-personal-project\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\\\">\",\"<link rel=\\\"shortcut icon\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\\\">\"],\"files\":[\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-precomposed.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-167x167.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.json\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.webapp\"]}"
             }
           ],
           "filteredModules": 0,
@@ -10248,27 +10248,27 @@
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
+            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png",
-            "images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png",
             "images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png",
@@ -10292,7 +10292,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "module.exports = {\"outputFilePrefix\":\"images/favicon/icon-c566bb626c9412aec2582936a79e3196\",\"html\":[\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\\\">\",\"<meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\">\",\"<meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"react-personal-project\\\">\",\"<meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"theme-color\\\" content=\\\"#fff\\\">\",\"<meta name=\\\"application-name\\\" content=\\\"react-personal-project\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\\\">\",\"<link rel=\\\"shortcut icon\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\\\">\"],\"files\":[\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-precomposed.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-167x167.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.json\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.webapp\"]}"
+          "source": "module.exports = {\"outputFilePrefix\":\"images/favicon/icon-c566bb626c9412aec2582936a79e3196\",\"html\":[\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\\\">\",\"<link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\\\">\",\"<meta name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\">\",\"<meta name=\\\"apple-mobile-web-app-title\\\" content=\\\"react-personal-project\\\">\",\"<meta name=\\\"mobile-web-app-capable\\\" content=\\\"yes\\\">\",\"<meta name=\\\"theme-color\\\" content=\\\"#fff\\\">\",\"<meta name=\\\"application-name\\\" content=\\\"react-personal-project\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\\\">\",\"<link rel=\\\"apple-touch-startup-image\\\" media=\\\"(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"32x32\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\\\">\",\"<link rel=\\\"icon\\\" type=\\\"image/png\\\" sizes=\\\"16x16\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\\\">\",\"<link rel=\\\"shortcut icon\\\" href=\\\"/TaskPlanner/images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\\\">\"],\"files\":[\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-precomposed.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-180x180.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-167x167.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-152x152.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-120x120.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-114x114.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-76x76.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-icon-57x57.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-256x256.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-192x192.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-144x144.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-96x96.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-72x72.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-48x48.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-36x36.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196android-chrome-384x384.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-320x460.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x920.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-748x1024.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-768x1004.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-750x1294.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-640x1096.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1496x2048.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1536x2008.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1182x2208.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196apple-touch-startup-image-1242x2148.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-32x32.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon-16x16.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196favicon.ico\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_60x60.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_512x512.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196firefox_app_128x128.png\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.json\",\"images/favicon/icon-c566bb626c9412aec2582936a79e3196manifest.webapp\"]}"
         }
       ],
       "filteredModules": 0,
