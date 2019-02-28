@@ -1,77 +1,102 @@
 
 import { MAIN_URL, TOKEN } from './config';
 
+const completeTask = (task) => ({ ...task, completed: true });
 const headers = {
     Authorization: TOKEN,
 };
 const headersFull = {
     ...headers,
     'Content-Type': 'application/json',
-}
+};
+
+const fetchCompletedTask = (incompletedTask) => fetch(MAIN_URL, {
+    body:    JSON.stringify([completeTask(incompletedTask)]),
+    headers: headersFull,
+    method:  'PUT',
+});
 
 export const api = {
     completeAllTasks: async (incompleted) => {
-        const res = await Promise.all(incompleted.map(ic => fetch(MAIN_URL, {
-            body: JSON.stringify([{ ...ic, completed: true }]),
-            headers: headersFull,
-            method: 'PUT',
-        })));
-        const notPassed = res.find(r => r.status !== 200);
+        try {
+            const res = await Promise.all(incompleted.map(fetchCompletedTask));
+            const notPassed = res.find((result) => result.status !== 200);
 
-        if (notPassed) {
+            if (notPassed) {
+                throw new Error('Bad all tasks complete');
+            }
+        } catch (error) {
             throw new Error('Bad all tasks complete');
         }
     },
 
     createTask: async (message) => {
-        const response = await fetch(MAIN_URL, {
-            body:    JSON.stringify({ message }),
-            headers: headersFull,
-            method:  'POST',
-        });
+        try {
+            const response = await fetch(MAIN_URL, {
+                body:    JSON.stringify({ message }),
+                headers: headersFull,
+                method:  'POST',
+            });
 
-        if (response.status === 200) {
-            const { data: todoObj } = await response.json();
+            if (response.status === 200) {
+                const { data: todoObj } = await response.json();
 
-            return todoObj;
+                return todoObj;
+            }
+
+            throw new Error('Bad task creation. Please try again.');
+        } catch (error) {
+            throw new Error('Bad task creation. Please try again.');
         }
     },
 
     fetchTasks: async () => {
-        const response = await fetch(MAIN_URL, {
-            headers,
-            method: 'GET',
-        });
+        try {
+            const response = await fetch(MAIN_URL, {
+                headers,
+                method: 'GET',
+            });
 
-        if (response.status === 200) {
-            const { data } = await response.json();
+            if (response.status === 200) {
+                const { data } = await response.json();
 
-            return data;
+                return data;
+            }
+
+            throw new Error('Bad fetching tasks. Please try again.');
+        } catch (error) {
+            throw new Error('Bad fetching tasks. Please try again.');
         }
-
-        return [];
     },
 
     removeTask: async (id) => {
-        await fetch(`${MAIN_URL}/${id}`, {
-            headers,
-            method: 'DELETE',
-        });
+        try {
+            await fetch(`${MAIN_URL}/${id}`, {
+                headers,
+                method: 'DELETE',
+            });
+        } catch (error) {
+            throw new Error('Bad task remove. Please try again.');
+        }
     },
 
     updateTask: async (message) => {
-        const response = await fetch(MAIN_URL, {
-            body:    JSON.stringify([message]),
-            headers: headersFull,
-            method:  'PUT',
-        });
+        try {
+            const response = await fetch(MAIN_URL, {
+                body:    JSON.stringify([message]),
+                headers: headersFull,
+                method:  'PUT',
+            });
 
-        if (response.status === 200) {
-            const { data } = await response.json();
+            if (response.status === 200) {
+                const { data } = await response.json();
 
-            return data;
+                return data;
+            }
+
+            throw new Error('Bad task update. Please try again.');
+        } catch (error) {
+            throw new Error('Bad task update. Please try again.');
         }
-
-        return [];
     },
 };
